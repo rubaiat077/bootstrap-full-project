@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project 01</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fas fa-bars navbar-icon"></i></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img style="width: 100px; height: auto;" src="./image/logo.png" alt="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav text-center text-md-left ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tutorial">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-content text-center">
+                        <h1 class="font-weight-bolder text-white  mb-5">Learn something new</h1>
+                        <button class="btn btn-lg btn-primary mr-3" onclick="location.href='#tutorials'"> <i class="fas fa-play mr-2"></i> Tutorials</button>
+                        <button class="btn btn-lg btn-primary mr-3" onclick="window.open('https://www.youtube.com/channel/UCQ2k2_C8kCXCXe5zpyIm8Uw')" class="request-callback"><i class="fab fa-youtube mr-2"></i> Subscribe</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section id="features">
+                <div class="row">
+                    <div class="col-lg-4 col-sm d-block d-sm-flex d-md-flex d-lg-flex p-3 p-sm-3">
+                        <div class="border border-info rounded p-4 m-sm text-center shadow features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x bg-info p-3 text-white rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold mt-4 mb-3">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque consequatur ut harum eveniet repellendus, possimus nam officia, quam, voluptatem doloremque ex eos exercitationem tempore delectus voluptate laboriosam quia.
+                                Nihil?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm d-block d-sm-flex d-md-flex d-lg-flex p-sm-3 p-3">
+                        <div class="border border-info rounded p-4 m-sm text-center shadow features-col">
+                            <i class="fas fa-fire-smoke fa-3x bg-info p-3 text-white rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold mt-4 mb-3">Easy to learn</h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum tempore, ex, ut necessitatibus neque, aut placeat laborum officiis labore harum totam quibusdam minima blanditiis pariatur. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm d-block d-sm-flex d-md-flex d-lg-flex p-sm-3 p-3">
+                        <div class="border border-info rounded p-4 m-sm text-center shadow features-col">
+                            <i class="fas fa-receipt fa-3x bg-info p-3 text-white rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold mt-4 mb-3">Fast response</h5>
+                            <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ea, placeat ullam esse, unde deleniti voluptate voluptatibus, aliquid porro nam quae dolorem dicta distinctio dolorum a fuga numquam suscipit est?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="about-header">
+                    <h3 class="text-center">About Us</h3>
+                    <hr class="hr-style" style="border-color: black;" </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="about__personal">
+                                <i class="fas fa-user fa-2x bg-info p-3 text-white rounded-circle mb-3 icon-personal"></i>
+                                <h5 class=" font-weight-bold ">Personal Info</h5>
+                                <p><span> Name:</span> Rubaiat Sabbir</p>
+                                <p><span> Occupation:</span> IT Professional</p>
+                                <p><span>Current Address:</span> Dhaka, Bangladesh</p>
+                                <p><span>Website:</span> <a href="http://codesignbd.blogspot.com " target="_blank " rel="noopener noreferrer ">coDEsignbd</a> </p>
+                                <button class="btn btn-primary mb-2 ">Download CV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7"></div>
+                        <div class="col-lg-5">
+                            <div class="about__achievement">
+                                <i class="fas fa-archive fa-2x bg-info p-3 text-white rounded-circle mb-3 icon-achievement"></i>
+                                <h5 class=" font-weight-bold ">Achievement</h5>
+                                <p><span>Best Performance Award:</span> Based on semester final results.</p>
+                                <p><span>Champions Award:</span> Fruits festival.</p>
+                                <p><span>Volunteer Award:</span> Blood donation camp.</p>
+                                <p> <span>CheckIn :</span> <a href="https://github.com/rubaiat077" target="_blank " rel="noopener noreferrer "><i class="fab fa-github mr-2"></i>GitHub</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about__experience ">
+                                <i class="fas fa-briefcase fa-2x bg-info p-3 text-white rounded-circle mb-3 icon-experience"></i>
+                                <h5 class="font-weight-bold">Experience Info</h5>
+                                <p><span>(01) Designation:</span> Executive</p>
+                                <p><span> Department:</span> IT & MIS</p>
+                                <p class="small"><span>Company Name:</span> Jamuna Future Park, Jamuna Group</p>
+                                <p><span> Address:</span> 44 Kuril, Dhaka, Bangladesh</p>
+                                <p><span>Website:</span> <a href="https://jamunagroup.com.bd/" target="_blank " rel="noopener noreferrer ">Jamuna Group</a> </p>
+                            </div>
+                            <div class="about__experience">
+                                <p><span> (02) Designation:</span> Officer</p>
+                                <p><span> Department:</span> IT & Payroll</p>
+                                <p><span> Company Name:</span> Mane Fashions Internation</p>
+                                <p class="small"><span> Address:</span> 364/365 Satarkul Road, Badda Dhaka, Bangladesh</p>
+                                <p><span>Website:</span> <a href="http://manefashionbd.com/" target="_blank " rel="noopener noreferrer ">Mane Fashions Internation</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7"></div>
+                        <div class="col-lg-5">
+                            <i class="fas fa-ski-jump fa-2x bg-info p-3 text-white rounded-circle mb-3 icon-achievement"></i>
+                            <h5 class=" font-weight-bold ">Skills</h5>
+                            <table class="table-hover table-responsive pt-2">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h6 class=" font-weight-bold">HTML</h6>
+                                        </td>
+                                        <td class="pl-3">
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class=" font-weight-bold">CSS</h6>
+                                        </td>
+                                        <td class="pl-3">
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star-half"></i> </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class=" font-weight-bold">Bootstrap</h6>
+                                        </td>
+                                        <td class="pl-3">
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fa fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="far fa-star"></i> </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class=" font-weight-bold">JavScript</h6>
+                                        </td>
+                                        <td class="pl-3">
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fa fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fas fa-star-half"></i> </span>
+                                            <span> <i class="far fa-star"></i> </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class=" font-weight-bold">PHP</h6>
+                                        </td>
+                                        <td class="pl-3">
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="fa fa-star"></i> </span>
+                                            <span> <i class="fas fa-star"></i> </span>
+                                            <span> <i class="far fa-star"></i> </span>
+                                            <span> <i class="far fa-star"></i> </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </section>
+            <section id="tutorial">
+                <div class="tutorial-header p-3 p-lg-3">
+                    <h3 class=" text-center ">Tutorials</h3>
+                    <hr class="hr-style" style="border-color: black;">
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-lg-3">
+                        <div class="card border-info shadow">
+                            <img src="./image/download.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Video Title</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="feedback">
+                <div class="feedback-header p-3 p-lg-3">
+                    <h3 class="text-center">Feedback</h3>
+                    <hr class="hr-style" style="border-color: black;">
+                </div>
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="feedback-text font-italic">
+                                    1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum minima architecto nulla delectus ab! Laudantium rem obcaecati culpa neque accusamus dolorem optio, ea voluptatibus?</p>
+                                <img class="rounded-circle img-style" src="./image/feedback/feedback img 1.png" alt="feedback img">
+                                <h6 class="feedback_name pt-3 pt-lg-3 pt-md-3 font-weight-bold">Jhon Doe</h6>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="feedback-text font-italic">
+                                    2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum Laborum saepe nam eos cum laudantium rem obcaecati culpa neque accusamus dolorem optio, ea voluptatibus?</p>
+                                <img class="rounded-circle img-style" src="./image/feedback/feedback img 2.png" alt="feedback img">
+                                <h6 class="feedback_name pt-3 pt-lg-3 pt-md-3 font-weight-bold">Harry Lee</h6>
+                            </div>
+
+                            <div class="carousel-item">
+                                <p class="feedback-text font-italic">
+                                    3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum minima architecto nulla delectus ab! Laborum saepe nam eos cum laudantium rem obcaecati, ea voluptatibus?</p>
+                                <img class="rounded-circle img-style" src="./image/feedback/feedback img 3.png" alt="feedback img">
+                                <h6 class="feedback_name pt-3 pt-lg-3 pt-md-3 font-weight-bold">Tom Watson</h6>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </button>
+                        </div>
+                    </div>
+            </section>
+            <section id="contact">
+                <div class="contact-header p-3 p-lg-3">
+                    <h3 class="text-center">Contact Us</h3>
+                    <hr class="hr-style" style="border-color: black;">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:sabbir286@outlook.com" method="post" enctype="text/plain" class="was-validated">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="fullname">Fullname</label>
+                                <input type="text" class="form-control" name="fullname" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback text-muted">Enter your fullname before submit</div>
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold for=" email ">Email</label>
+                                <input type="text " class="form-control " name="email " required>
+                                <small id="emailHelp " class="form-text text-muted ">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group ">
+                                <label class="font-weight-bold for="message">Message</label>
+                                <textarea style="resize: none;" name="" id="" class="form-control" cols="30" rows="4" placeholder="Write your message"></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" class="btn btn-primary mr-3" value="Submit">
+                                <input type="reset" class="btn btn-primary" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer p-3 p-lg -3">
+                <div class="row">         
+                    <div class="col-lg-6 col-md-6 text-center text-lg-left text-md-left mb-3 mb-lg-0">
+                        <p class="small mb-0 mt-1 text-secondary">&copy;All right resered by Md R Sabbir</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center text-lg-right text-md-right">
+                        <a class="text-secondary mr-3 " href="#home">Home</a>
+                        <a class="text-secondary mr-3" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="text-secondary mr-3" href="#"><i class="fab fa-youtube "></i></a>
+                        <a class="text-secondary mr-3" href="#"><i class="fab fa-twitter "></i></a>
+                        <a class="text-secondary mr-3" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>               
+            </div>
+        </footer>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js " integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2 " crossorigin="anonymous "></script>
+</body>
+
+</html>

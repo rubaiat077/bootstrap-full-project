@@ -1,0 +1,154 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-icon {
+  color: aliceblue;
+}
+
+.navbar {
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  color: white;
+  margin: 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  background: turquoise;
+  color: white;
+  transform: scale(1.1);
+}
+
+header {
+  background-image: url(./image/school_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-container {
+  height: 70vh;
+}
+
+.banner-container h1 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  background-color: rgba(64, 224, 208, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* header ends */
+
+/* features start */
+
+#features {
+  background-color: #fbe5e5;
+  padding: 5% 10%;
+}
+
+.features-col {
+  transition: 0.4s;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+}
+
+/* features end */
+
+/* about me start */
+
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+
+#about {
+  background-color: #faeee7;
+  padding: 4% 10%;
+}
+
+.about__personal span,
+.about__achievement span,
+.about__experience span {
+  font-weight: 700 !important;
+}
+
+/* about me end */
+
+/* tutorial start */
+
+#tutorial {
+  background-color: #fbe5e5;
+  padding: 4% 10%;
+}
+
+.card {
+  transition: 0.4s;
+}
+
+.card:hover {
+  border: 2px 5px 8px black;
+  transform: scale(1.1);
+}
+
+/* tutorial ends */
+
+/* feedback start */
+
+#feedback {
+  background-color: #faeee7;
+}
+
+.img-style {
+  width: 150px;
+  height: 150px;
+}
+
+.feedback-text {
+  padding: 2% 10%;
+}
+
+/* feedback end */
+
+/* contact start */
+
+#contact {
+  background-color: #fbe5e5;
+  padding: 2% 10%;
+}
+
+/* cotact end */
+
+/* footer start */
+
+footer {
+  background-color: #fccdcd;
+  padding: 0% 10%;
+}
+
+footer a:hover {
+  background-color: #fff;
+  border-radius: 20%;
+}
